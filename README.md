@@ -2,8 +2,6 @@ AVX Search
 =========
 Proof of concept for fast search in plain-text files using Intel's Advanced Vector Extensions (AVX). As for now, code only supports one or two characters, and only prints the number of lines with a match (like running *grep -c*).
 
-Current performance is x2 compared to GNU Grep.
-
 Usage
 -----
 	avx-search -i [input_file] -m [match]
