@@ -1,4 +1,4 @@
-/* gcc-6 -O3 -std=c99 -mbmi -mavx2 -o avx1 avx1.c */
+/* gcc -O3 -std=c99 -mbmi -mavx2 -o simd-search simd-search.c */
 
 #include <immintrin.h>
 #include <bmiintrin.h>

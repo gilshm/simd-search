@@ -1,7 +1,6 @@
-AVX Search
-=========
-Proof of concept for fast search in plain-text files using Intel's Advanced Vector Extensions (AVX) SIMD. As for now, code only supports one characters, and only prints the number of lines with a match (like running *grep -c*).
-Performance is x2 compared to GNU Grep when data doesn't reside in the different caches, which is a reasonable assumption when dealing with Big Data for example. When caches are "hot" performance is somewhat the same (I thought the AVX implementation should be faster in both scenarios).
+SIMD Search
+===========
+Proof of concept for SIMD fast search in plain-text files, implemented using Intel's Advanced Vector Extensions (AVX). As for now, code only supports one characters, and only prints the number of lines with a match (like running *grep -c*).
 
 Usage
 -----
